@@ -41,10 +41,10 @@ progress::-webkit-progress-bar {
   border-radius: 10px;
 }
 /*uses id to identify progress bar type and changes color based off type*/
-#health::-webkit-progress-value {
+#defense::-webkit-progress-value {
   background-color: blue;
 }
-#health::-moz-progress-bar {
+#defense::-moz-progress-bar {
   background-color: blue;
 }
 
