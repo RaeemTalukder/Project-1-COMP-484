@@ -23,6 +23,23 @@ h1 {
     0 0 40px #00ffff;
   margin-bottom: 20px;
 }
+/* H1 for Home Page */
+#tank-title {
+  color: #00ffff;
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 40px #00ffff;
+}
+
+/* H1 for About Page */
+#damage-title {
+  color: #ff00ff;
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+}
+
+/* H1 for Contact Page */
+#support-title {
+  color: #ffff00;
+  text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff00, 0 0 20px #ffff00, 0 0 40px #ffff00;
+}
 h2 {
   font:
     3.2em Georgia,
