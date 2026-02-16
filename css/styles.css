@@ -1,0 +1,93 @@
+html,
+body {
+  background-image: url("../images/neon.jpg");  /* sets the background image for the entire page */
+}
+h1,
+h2,
+h3,
+p { /*paragrah and headers */
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body { /* */
+  font-family: Verdana, Geneva, sans-serif; 
+  font-size: 100%;
+  margin: 0 auto; /*auto adjust margin according to viewpoint */
+  width: 80%;
+  padding: 2.5%;
+  line-height: 1.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  background-color: black;
+  color: white;
+}
+select { /* style drop down navigator*/
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+div { /*black backdrop background*/
+  background-color: #222;
+  color: rgb(97, 97, 97);
+  font-size: 16px;
+}
+:root {
+  color-scheme: dark;
+} 
+option { /* style options in navigator*/
+  background-color: #222;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+h1 {
+  font:
+    1.6em Arial,
+    Helvetica,
+    sans-serif;
+  margin-bottom: 0.4em;
+  color: rgb(255, 255, 255);
+}
+h2 {
+  font:
+    3.2em Georgia,
+    "Times New Roman",
+    Times,
+    serif;
+  margin-bottom: 0.2em;
+}
+h3 {
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+}
+p {
+  margin-bottom: 1em;
+}
+
+picture img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 40px auto; /*auto adjust picture according to viewpoint */
+}
+
+textarea { /*text area style */
+  background-color: #333;
+  color: #fff;
+  cursor: not-allowed; /*disable editing text box */
+}
+footer { /*footer specification */
+  border-top: 1px solid gray;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 4em;
+  margin-top: 1em;
+}
+
+

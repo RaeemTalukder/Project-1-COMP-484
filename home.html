@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Class Archetypes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport allows mobile viewing and allows page to auto format to shrinking window -->
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Class Archetypes</h1>
+
+<br> <!-- text area allows for additional editor notes that are set to read only. Id allows label of text area-->
+<p id="intro">In the world of gaming, class archetypes are a fundamental aspect of character development and gameplay. These archetypes represent the building blocks of any class / hero based shooter. Each archetype offers unique abilities, strengths, and weaknesses. This website explores some of the most common class archetypes found in various games.</p>
+<p> <i> <textarea id = "intro-textarea" rows="4" cols="50" readonly> This site goes over the most basic and common three archetypes, which are the tank, damage, and support. </textarea></i></p>
+<nav>
+        <select onchange="navigate(this.value)"> 
+            <option value="home.html" selected>Home</option>
+            <option value="tank.html">Tank</option>
+            <option value="damage.html">Damage</option>
+            <option value="support.html">Support</option>
+            </select>
+    </nav> <!-- script allows navigation between pages once page has been selected -->
+<script> 
+        function navigate(page) {
+            if (page !== "") {
+                window.location.href = page;
+            }
+        }
+    </script>
+<style>
+    body {
+        text-align: center;
+    }
+
+    select {
+        margin-top: 20px;
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+</style>
+<picture>  <!-- picture element allows for responsive images -->
+  <source media="(min-width:400px)" srcset="images/Tanksupportdps.webp">
+  <img src="images/Tanksupportdps.webp" alt="triad">
+</picture>
+</body>
+<footer>
+    <p>Created by Raeem Talukder</p>
+</footer>
+</html>

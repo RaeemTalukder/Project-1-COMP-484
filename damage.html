@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- viewport allows mobile viewing and allows page to auto format to shrinking window -->
+    <title>Damage</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav>
+        <select onchange="navigate(this.value)"> <!--allows selection of options in a drop down menu, selected attribute shows what page the user is currently on -->
+            <option value="home.html">Home</option>
+            <option value="tank.html">Tank</option>
+            <option value="damage.html" selected>Damage</option>
+            <option value="support.html">Support</option>
+    </nav>
+    </select>
+         <!-- script allows navigation between pages once page has been selected -->
+    <script>
+        function navigate(page) {
+            if (page !== "") {
+                window.location.href = page;
+            }
+        }
+    </script>
+    <br>
+    <br>
+    <h1>Damage<h1> <!-- text area allows for additional editor notes that are set to read only. Id allows label of text area-->
+            <p> Damage, Damage per second (DPS), or attack damage carry (adc) is the class archeytype to deal the most
+                damage and kill opponents. Their main goal is to be able to engage and kill opponents to reduce pressure
+                put on tanks and supports. They usually have the down side of low health but with high damage output.
+                Damage should always be looking for picks and flanks to create advantageous fights for their team.
+                <textarea id="note" name="note" rows="1"
+                    cols="2"> Some damage dealers have average to good amount of health but usually trade something else like range for that extra health</textarea>.
+                Without damage the tank and support can't deal enough damage to kill anything which in turn forces them
+                to move back because of lack of pressure and killing potential. Damage should always stick to the two
+                funtementals of securing kills and pressuring the opponent to create space for the team. </p>
+            <h3>some examples in games<h3>
+                    <textarea id="examples" name="examples" rows="4" cols="50"
+                        readonly> Tracer from overwatch, Jinx form League of Legends, Scout from Team Fortress 2, Hela from Marvel Rivals. </textarea>
+                    <picture> <!-- picture element allows for responsive images -->
+                        <source media="(min-width:200px)" srcset="images/damage.jpg">
+                        <img src="images/damage.jpg" alt="damage">
+                    </picture>
+</body>
+
+</html>

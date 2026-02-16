@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport allows mobile viewing and allows page to auto format to shrinking window -->
+    <title>Support</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"> <!--!link css file-->
+</head>
+
+<body>
+    <nav>
+        <select onchange="navigate(this.value)"><!--allows selection of options in a drop down menu, selected attribute shows what page the user is currently on -->
+            <option value="home.html">Home</option>
+            <option value="tank.html">Tank</option>
+            <option value="damage.html">Damage</option>
+            <option value="support.html" selected>Support</option>
+    </nav>
+     <!-- script allows navigation between pages once page has been selected -->
+    <script>
+        function navigate(page) { 
+            if (page !== "") {
+                window.location.href = page;
+            }
+        }
+    </script>
+    </select>
+    <br>
+    <br>
+    <h1> Support </h1>  <!-- text area allows for additional editor notes that are set to read only. Id allows label of text area-->
+    <p> Support is the class archetype that aims to either heal or enchance the other memebers of the team. The main
+        goal of a support is to keep the team alive and to empower them. They usually have low health and damage but
+        compensate witht the ability to heal and empower which both damage and tank lack <textarea id="note" name="note"
+            rows="1" cols="2" 
+            readonly> Some supports have average to good health or damage output but trade healing potential</textarea>
+        Without Support Tanks and Damage would always be widdled down to death without proper support keeping them
+        afloat. The core two funtementals of a support is survival and empowerment.</p>
+    <h3>some examples in games<h3>
+
+            <textarea id="examples" name="examples" rows="4"
+                cols="50"> Mercy from overwatch, Sona from League of Legends, Medic from Team Fortress 2, Jeff the Land Shark from Marvel Rivals </textarea>
+            <picture>  <!-- picture element allows for responsive images -->
+                <source media="(min-width:400px)" srcset="images/support.jpg">
+                <img src="images/support.jpg" alt="support">
+            </picture>
+</body>
+
+</html>
