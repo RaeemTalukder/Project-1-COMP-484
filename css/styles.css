@@ -27,6 +27,9 @@ body { /* */
   background-color: black;
   color: white;
 }
+.my-progress-bar {
+    accent-color: #4CAF50; /* Green color for the filled portion */
+}
 select { /* style drop down navigator*/
   padding: 10px;
   font-size: 16px;
