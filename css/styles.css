@@ -28,13 +28,12 @@ body { /* */
   color: white;
 }
 /*uses id to identify progress bar type and changes color based off type*/
-#defense::-webkit-progress-value {
+#health::-webkit-progress-value {
   background-color: red;
 }
-#defense::-moz-progress-bar {
+#health::-moz-progress-bar {
   background-color: red;
 }
-
 
 #damage::-webkit-progress-value {
   background-color: orange;
@@ -43,13 +42,13 @@ body { /* */
   background-color: orange;
 }
 
+#Healing::-webkit-progress-value {
+  background-color: limegreen;
+}
+#Healing::-moz-progress-bar {
+  background-color: limegreen;
+}
 
-#healing::-webkit-progress-value {
-  background-color: limegreen;
-}
-#healing::-moz-progress-bar {
-  background-color: limegreen;
-}
 
 select { /* style drop down navigator*/
   padding: 10px;
