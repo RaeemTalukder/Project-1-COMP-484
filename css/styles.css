@@ -27,27 +27,27 @@ body { /* */
   background-color: black;
   color: white;
 }
-/* HEALTH */
-.health::-webkit-progress-value {
+/*uses id to identify progress bar type and changes color based off type*/
+#defense::-webkit-progress-value {
   background-color: red;
 }
-.health::-moz-progress-bar {
+#defense::-moz-progress-bar {
   background-color: red;
 }
 
-/* DAMAGE */
-.damage::-webkit-progress-value {
+
+#damage::-webkit-progress-value {
   background-color: orange;
 }
-.damage::-moz-progress-bar {
+#damage::-moz-progress-bar {
   background-color: orange;
 }
 
-/* HEALING */
-.healing::-webkit-progress-value {
+
+#healing::-webkit-progress-value {
   background-color: limegreen;
 }
-.healing::-moz-progress-bar {
+#healing::-moz-progress-bar {
   background-color: limegreen;
 }
 
