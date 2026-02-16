@@ -55,10 +55,10 @@ progress::-webkit-progress-bar {
   background-color: red;
 }
 
-#Healing::-webkit-progress-value {
+#healing::-webkit-progress-value {
   background-color: green;
 }
-#Healing::-moz-progress-bar {
+#healing::-moz-progress-bar {
   background-color: green;
 }
 
