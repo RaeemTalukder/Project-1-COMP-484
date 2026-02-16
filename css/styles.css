@@ -10,6 +10,34 @@ p { /*paragrah and headers */
   padding: 0;
   color: white;
 }
+h1 {
+    font-size: 3.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #00ffff;
+  text-shadow:
+    0 0 5px #00ffff,
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 40px #00ffff;
+  margin-bottom: 20px;
+}
+h2 {
+  font:
+    3.2em Georgia,
+    "Times New Roman",
+    Times,
+    serif;
+  margin-bottom: 0.2em;
+}
+h3 {
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+}
+p {
+  margin-bottom: 1em;
+}
 
 body { /* */
   font-family: Verdana, Geneva, sans-serif; 
@@ -93,34 +121,7 @@ option { /* style options in navigator*/
   color: rgb(255, 255, 255);
   font-size: 16px;
 }
-h1 {
-    font-size: 3.5em;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #00ffff;
-  text-shadow:
-    0 0 5px #00ffff,
-    0 0 10px #00ffff,
-    0 0 20px #00ffff,
-    0 0 40px #00ffff;
-  margin-bottom: 20px;
-}
-h2 {
-  font:
-    3.2em Georgia,
-    "Times New Roman",
-    Times,
-    serif;
-  margin-bottom: 0.2em;
-}
-h3 {
-  font-size: 1.2em;
-  color: rgb(255, 255, 255);
-}
-p {
-  margin-bottom: 1em;
-}
+
 
 picture img {
   width: 100%;
