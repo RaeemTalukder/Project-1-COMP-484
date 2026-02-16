@@ -65,7 +65,8 @@ h4{
   margin-bottom: 20px;
 }
 h5{
-  
+    font-size: 1.2em;
+  color: rgb(255, 255, 255);
 }
 p {
   margin-bottom: 1em;
