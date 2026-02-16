@@ -94,12 +94,17 @@ option { /* style options in navigator*/
   font-size: 16px;
 }
 h1 {
-  font:
-    1.6em Arial,
-    Helvetica,
-    sans-serif;
-  margin-bottom: 0.4em;
-  color: rgb(255, 255, 255);
+    font-size: 3.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #00ffff;
+  text-shadow:
+    0 0 5px #00ffff,
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 40px #00ffff;
+  margin-bottom: 20px;
 }
 h2 {
   font:
