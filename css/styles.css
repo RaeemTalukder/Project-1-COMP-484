@@ -27,6 +27,19 @@ body { /* */
   background-color: black;
   color: white;
 }
+/*progress bar sizing*/
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 200px;
+  height: 20px;
+}
+
+/*progress bar background*/
+progress::-webkit-progress-bar {
+  background-color: #333;
+  border-radius: 10px;
+}
 /*uses id to identify progress bar type and changes color based off type*/
 #health::-webkit-progress-value {
   background-color: red;
